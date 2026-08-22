@@ -8,8 +8,8 @@
 
     "preloaderSettings": {
         "enabled": true,
-        "title": "React <strong>Portfolio</strong>",
-        "subtitle": "by Ryan Balieiro",
+        "title": "Software <strong>Engineer</strong>",
+        "subtitle": "Building Digital Systems",
         "logoOffset": {
             "right": 14,
             "top": 2,
@@ -41,11 +41,6 @@
             "name": "Français",
             "id": "fr",
             "flagUrl": "images/flags/fr.png"
-        },
-        {
-            "name": "한국어",
-            "id": "ko",
-            "flagUrl": "images/flags/ko.png"
         }
     ],
 
@@ -55,10 +50,15 @@
             "icon": "fa-solid fa-moon",
             "dark": true,
             "locales": {
-                "en": {"name": "Dark Mode"},
-                "es": {"name": "Modo Oscuro"},
-                "fr": {"name": "Mode Sombre"},
-                "ko": {"name": "다크 모드"}
+                "en": {
+                    "name": "Dark Mode"
+                },
+                "es": {
+                    "name": "Modo Oscuro"
+                },
+                "fr": {
+                    "name": "Mode Sombre"
+                }
             }
         },
         {
@@ -66,10 +66,15 @@
             "icon": "fa-solid fa-sun",
             "dark": false,
             "locales": {
-                "en": {"name": "Light Mode"},
-                "es": {"name": "Modo Claro"},
-                "fr": {"name": "Mode Clair"},
-                "ko": {"name": "라이트 모드"}
+                "en": {
+                    "name": "Light Mode"
+                },
+                "es": {
+                    "name": "Modo Claro"
+                },
+                "fr": {
+                    "name": "Mode Clair"
+                }
             }
         }
     ],
@@ -78,34 +83,46 @@
         "title": "\uD83D\uDDA5️ Hey there, fellow developer!",
         "items": [
             {
-                "description": "This is an open-source template based on the React framework.",
+                "description": "This portfolio showcases software engineering work across mobile applications, web platforms, backend systems, SaaS products, cybersecurity, and emerging technologies.",
                 "list": [],
                 "listStyle": "none"
             },
             {
-                "description": "Other frameworks and plugins used in the project include:",
+                "description": "Technologies and tools used across my projects include:",
                 "list": [
-                    "Bootstrap 5: https://getbootstrap.com/",
-                    "Smooth Scrollbar: https://tinyurl.com/4yhm4n4a",
-                    "Swiper: https://swiperjs.com/",
-                    "EmailJS: https://www.emailjs.com/",
-                    "Font Awesome: https://fontawesome.com/",
-                    "PrimeIcons: https://primefaces.org/"
+                    "Flutter & Dart: Cross-platform mobile applications",
+                    "React & JavaScript: Web applications and dashboards",
+                    "Node.js & Express: Backend APIs and services",
+                    "PostgreSQL & MongoDB: Data and persistence",
+                    "Prisma: Database ORM and application data modeling",
+                    "Firebase: Cloud services and mobile application infrastructure",
+                    "REST APIs: Application and service integration",
+                    "Cisco Networking & Cybersecurity: Security and infrastructure training",
+                    "ROS 2, Gazebo & Arduino: Robotics and physical computing"
                 ],
                 "listStyle": "bulleted"
             },
             {
-                "description": "Clone it and customize it for your own portfolio:",
+                "description": "Selected work includes:",
                 "list": [
-                    "https://github.com/ryanbalieiro/react-portfolio-template"
+                    "Pixacrown: Creator awards and recognition mobile platform",
+                    "Water Company Management: SaaS platform for water records, billing and payments",
+                    "SHED: Sexual health awareness mobile platform with backend services",
+                    "Enta: Streaming and monetization mobile application",
+                    "Blood Donation Management: Mobile platform powered by Firebase",
+                    "Restaurant Management POS & SaaS: Point-of-sale and business management platform",
+                    "Welfare SACCO Management: Members, contributions, claims and welfare operations platform"
                 ],
-                "listStyle": "none"
+                "listStyle": "bulleted"
             },
             {
-                "description": "Developer Info:",
+                "description": "Currently expanding my engineering capabilities through:",
                 "list": [
-                    "GitHub: https://github.com/ryanbalieiro",
-                    "Website: https://ryanbalieiro.com"
+                    "Cybersecurity and Cisco networking training",
+                    "Ethical hacking studies",
+                    "ROS 2 robotics",
+                    "Gazebo simulation",
+                    "Arduino and hands-on robotics projects"
                 ],
                 "listStyle": "bulleted"
             }
