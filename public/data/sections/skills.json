@@ -1,668 +1,989 @@
 {
-    "title": {
-        "locales": {
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Skills",
+        "title_short_nav": "Skills",
+        "title_long_prefix": "Explore",
+        "title_long": "My {{Skill Set}}"
+      },
+      "es": {
+        "title_short": "Habilidades",
+        "title_short_nav": "Habilidades",
+        "title_long_prefix": "Explora",
+        "title_long": "Mis {{Habilidades}}"
+      },
+      "fr": {
+        "title_short": "Compétences",
+        "title_short_nav": "Compétences",
+        "title_long_prefix": "Explorez",
+        "title_long": "Mes {{Compétences}}"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleCards",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "",
+          "faIcon": "fa-solid fa-mobile-screen-button",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2021,
+            "month": 1
+          },
+          "link": {
+            "href": "",
+            "tooltipString": ""
+          },
+          "locales": {
             "en": {
-                "title_short": "Skills",
-                "title_short_nav": "Skills",
-                "title_long_prefix": "Explore",
-                "title_long": "My {{Skill Set}}"
+              "title": "{{Mobile}} Development",
+              "text": "Building cross-platform mobile applications with Flutter and Dart, including production applications for streaming, creator platforms, health, payments, field operations, and business management."
             },
             "es": {
-                "title_short": "Habilidades",
-                "title_short_nav": "Habilidades",
-                "title_long_prefix": "Explora",
-                "title_long": "Mis {{Habilidades}}"
+              "title": "Desarrollo {{Móvil}}",
+              "text": "Desarrollo de aplicaciones móviles multiplataforma con Flutter y Dart, incluyendo aplicaciones de producción para streaming, plataformas de creadores, salud, pagos, operaciones de campo y gestión empresarial."
             },
             "fr": {
-                "title_short": "Capacités",
-                "title_short_nav": "Capacités",
-                "title_long_prefix": "Explorez",
-                "title_long": "Mes {{Compétences}}"
-            },
-            "ko": {
-                "title_short": "스킬",
-                "title_short_nav": "스킬",
-                "title_long_prefix": "이것은 내",
-                "title_long": "{{스킬}}입니다"
+              "title": "Développement {{Mobile}}",
+              "text": "Développement d'applications mobiles multiplateformes avec Flutter et Dart, notamment pour le streaming, les plateformes de créateurs, la santé, les paiements et la gestion d'entreprise."
             }
-        }
-    },
-
-    "articles": [
-        {
-  "id": 1,
-  "component": "ArticleCards",
-  "locales": {},
-  "settings": {
-    "order_items_by": "id",
-    "order_items_sort": "asc"
-  },
-  "items": [
-    {
-      "id": 1,
-      "img": "",
-      "faIcon": "fa-solid fa-mobile-screen-button",
-      "faIconColors": {
-        "bg": "",
-        "fill": ""
-      },
-      "date": {
-        "year": null,
-        "month": null
-      },
-      "link": {
-        "href": "",
-        "tooltipString": ""
-      },
-      "locales": {
-        "en": {
-          "title": "{{Mobile}} Engineering",
-          "text": "Cross-platform mobile applications with Flutter and React Native, including offline-first experiences."
+          }
         },
-        "es": {
-          "title": "Ingeniería {{Móvil}}",
-          "text": "Aplicaciones móviles multiplataforma con Flutter y React Native."
-        },
-        "fr": {
-          "title": "Ingénierie {{Mobile}}",
-          "text": "Applications mobiles multiplateformes avec Flutter et React Native."
-        }
-      }
-    },
-    {
-      "id": 2,
-      "img": "",
-      "faIcon": "fa-solid fa-server",
-      "faIconColors": {
-        "bg": "",
-        "fill": ""
-      },
-      "date": {
-        "year": null,
-        "month": null
-      },
-      "link": {
-        "href": "",
-        "tooltipString": ""
-      },
-      "locales": {
-        "en": {
-          "title": "{{Backend}} APIs & Services",
-          "text": "Building secure, scalable backend services, REST APIs, authentication flows, and business logic."
-        },
-        "es": {
-          "title": "APIs y Servicios {{Backend}}",
-          "text": "Construcción de servicios backend seguros y escalables."
-        },
-        "fr": {
-          "title": "API et Services {{Backend}}",
-          "text": "Création de services backend sécurisés et évolutifs."
-        }
-      }
-    },
-    {
-      "id": 3,
-      "img": "",
-      "faIcon": "fa-solid fa-layer-group",
-      "faIconColors": {
-        "bg": "",
-        "fill": ""
-      },
-      "date": {
-        "year": null,
-        "month": null
-      },
-      "link": {
-        "href": "",
-        "tooltipString": ""
-      },
-      "locales": {
-        "en": {
-          "title": "{{SaaS}} & Business Systems",
-          "text": "Experience building ERP, POS, membership, e-commerce, multi-tenant, and business-critical platforms."
-        },
-        "es": {
-          "title": "Sistemas {{SaaS}} Empresariales",
-          "text": "Experiencia en plataformas ERP, POS, membresías y SaaS."
-        },
-        "fr": {
-          "title": "Systèmes {{SaaS}}",
-          "text": "Expérience avec des plateformes ERP, POS, d'adhésion et SaaS."
-        }
-      }
-    },
-    {
-      "id": 4,
-      "img": "",
-      "faIcon": "fa-solid fa-gauge-high",
-      "faIconColors": {
-        "bg": "",
-        "fill": ""
-      },
-      "date": {
-        "year": null,
-        "month": null
-      },
-      "link": {
-        "href": "",
-        "tooltipString": ""
-      },
-      "locales": {
-        "en": {
-          "title": "{{Performance}} & Debugging",
-          "text": "Profiling, refactoring, debugging, and optimizing applications for better speed and reliability."
-        },
-        "es": {
-          "title": "{{Rendimiento}} y Depuración",
-          "text": "Optimización, perfilado y depuración de aplicaciones."
-        },
-        "fr": {
-          "title": "{{Performance}} et Débogage",
-          "text": "Profilage, refactorisation et optimisation des applications."
-        }
-      }
-    },
-    {
-      "id": 5,
-      "img": "",
-      "faIcon": "fa-solid fa-shield-halved",
-      "faIconColors": {
-        "bg": "",
-        "fill": ""
-      },
-      "date": {
-        "year": null,
-        "month": null
-      },
-      "link": {
-        "href": "",
-        "tooltipString": ""
-      },
-      "locales": {
-        "en": {
-          "title": "{{Secure}} Development",
-          "text": "JWT authentication, encrypted storage, HTTPS, API validation, and growing application security expertise."
-        },
-        "es": {
-          "title": "Desarrollo {{Seguro}}",
-          "text": "JWT, almacenamiento cifrado, HTTPS y validación de APIs."
-        },
-        "fr": {
-          "title": "Développement {{Sécurisé}}",
-          "text": "JWT, stockage chiffré, HTTPS et validation d'API."
-        }
-      }
-    }
-  ]
-},
-
-     {
-  "id": 2,
-  "component": "ArticleSkills",
-  "locales": {
-    "en": {
-      "title": "Backend & {{Data}} Stack"
-    },
-    "es": {
-      "title": "Stack de {{Backend y Datos}}"
-    },
-    "fr": {
-      "title": "Stack {{Backend et Données}}"
-    }
-  },
-  "settings": {
-    "max_items_per_row": 3,
-    "max_rows_collapse_threshold": 6,
-    "order_items_by": "percentage",
-    "order_items_sort": "desc",
-    "round_icons": false
-  },
-  "items": [
-    {
-      "id": 1,
-      "img": "",
-      "faIcon": "fa-brands fa-node-js",
-      "faIconColors": {
-        "bg": "",
-        "fill": ""
-      },
-      "date": {
-        "year": null,
-        "month": null
-      },
-      "percentage": 90,
-      "locales": {
-        "en": {
-          "title": "Node.js",
-          "text": "Building backend APIs, services, authentication flows, and business applications.",
-          "level": "Advanced"
-        },
-        "es": {
-          "text": "Desarrollo de APIs backend y servicios empresariales."
-        },
-        "fr": {
-          "text": "Développement d'API backend et de services métier."
-        }
-      }
-    },
-    {
-      "id": 2,
-      "img": "",
-      "faIcon": "fa-solid fa-server",
-      "faIconColors": {
-        "bg": "",
-        "fill": ""
-      },
-      "date": {
-        "year": null,
-        "month": null
-      },
-      "percentage": 88,
-      "locales": {
-        "en": {
-          "title": "Express.js & REST APIs",
-          "text": "Designing structured APIs and scalable service layers.",
-          "level": "Advanced"
-        },
-        "es": {
-          "text": "Diseño de APIs REST y capas de servicios escalables."
-        },
-        "fr": {
-          "text": "Conception d'API REST et de couches de services évolutives."
-        }
-      }
-    },
-    {
-      "id": 3,
-      "img": "",
-      "faIcon": "fa-solid fa-database",
-      "faIconColors": {
-        "bg": "",
-        "fill": ""
-      },
-      "date": {
-        "year": null,
-        "month": null
-      },
-      "percentage": 85,
-      "locales": {
-        "en": {
-          "title": "PostgreSQL",
-          "text": "Relational database design, queries, and application integration.",
-          "level": "Advanced"
-        },
-        "es": {
-          "text": "Diseño e integración de bases de datos relacionales."
-        },
-        "fr": {
-          "text": "Conception et intégration de bases de données relationnelles."
-        }
-      }
-    },
-    {
-      "id": 4,
-      "img": "",
-      "faIcon": "fa-solid fa-leaf",
-      "faIconColors": {
-        "bg": "",
-        "fill": ""
-      },
-      "date": {
-        "year": null,
-        "month": null
-      },
-      "percentage": 78,
-      "locales": {
-        "en": {
-          "title": "MongoDB",
-          "text": "Working with document-based data models and application data.",
-          "level": "Proficient"
-        },
-        "es": {
-          "text": "Trabajo con modelos de datos basados en documentos."
-        },
-        "fr": {
-          "text": "Travail avec des modèles de données orientés documents."
-        }
-      }
-    },
-    {
-      "id": 5,
-      "img": "",
-      "faIcon": "fa-brands fa-docker",
-      "faIconColors": {
-        "bg": "",
-        "fill": ""
-      },
-      "date": {
-        "year": null,
-        "month": null
-      },
-      "percentage": 70,
-      "locales": {
-        "en": {
-          "title": "Docker",
-          "text": "Containerizing applications and supporting consistent development workflows.",
-          "level": "Proficient"
-        },
-        "es": {
-          "text": "Contenerización de aplicaciones y flujos de desarrollo."
-        },
-        "fr": {
-          "text": "Conteneurisation des applications et flux de développement."
-        }
-      }
-    },
-    {
-      "id": 6,
-      "img": "",
-      "faIcon": "fa-solid fa-fire",
-      "faIconColors": {
-        "bg": "",
-        "fill": ""
-      },
-      "date": {
-        "year": null,
-        "month": null
-      },
-      "percentage": 75,
-      "locales": {
-        "en": {
-          "title": "Firebase",
-          "text": "Integrating backend services and cloud capabilities into applications.",
-          "level": "Proficient"
-        },
-        "es": {
-          "text": "Integración de servicios backend y capacidades en la nube."
-        },
-        "fr": {
-          "text": "Intégration de services backend et de capacités cloud."
-        }
-      }
-    }
-  ]
-},
 
         {
-            "id": 3,
-            "component": "ArticleSkills",
-            "locales": {
-                "en": {"title": "Frontend Stack"},
-                "es": {"title": "Stack de Frontend"},
-                "fr": {"title": "Stack Frontend"},
-                "zh": {"title": "前端技术栈"}
+          "id": 2,
+          "img": "",
+          "faIcon": "fa-solid fa-server",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2022,
+            "month": 1
+          },
+          "link": {
+            "href": "",
+            "tooltipString": ""
+          },
+          "locales": {
+            "en": {
+              "title": "{{Backend}} Engineering",
+              "text": "Developing Node.js and TypeScript backend services, REST APIs, authentication systems, business logic, database integrations, and service architectures for production applications."
             },
-            "settings": {
-                "max_items_per_row": 3,
-                "max_rows_collapse_threshold": 6,
-                "order_items_by": "percentage",
-                "order_items_sort": "desc",
-                "round_icons": false
+            "es": {
+              "title": "Ingeniería {{Backend}}",
+              "text": "Desarrollo de servicios backend con Node.js y TypeScript, APIs REST, sistemas de autenticación, lógica empresarial e integración con bases de datos."
             },
-            "items": [
-                {
-                    "id": 1,
-                    "img": "",
-                    "faIcon": "fa-brands fa-html5",
-                    "faIconColors": {"bg": "", "fill": "#E34F26"},
-                    "date": {"year": 2018, "month": 9},
-                    "percentage": 100,
-                    "locales": {
-                        "en": {
-                            "title": "HTML 5",
-                            "text": "I am proficient in HTML5 for building structured web pages.",
-                            "level": ""
-                        },
-                        "es": {
-                            "text": "Soy competente en HTML5 para construir páginas web estructuradas."
-                        },
-                        "fr": {
-                            "text": "Je suis compétent en HTML5 pour créer des pages web structurées."
-                        },
-                        "ko": {
-                            "text": "구조화된 웹 페이지를 구축하기 위해 HTML5에 능숙합니다."
-                        }
-                    }
-                },
-                {
-                    "id": 2,
-                    "img": "",
-                    "faIcon": "fa-brands fa-css3-alt",
-                    "faIconColors": {"bg": "", "fill": "#1572B6"},
-                    "date": {"year": 2019, "month": 1},
-                    "percentage": 65,
-                    "locales": {
-                        "en": {
-                            "title": "CSS 3",
-                            "text": "I can create responsive and visually appealing designs using CSS3.",
-                            "level": ""
-                        },
-                        "es": {
-                            "text": "Puedo crear diseños receptivos y visualmente atractivos utilizando CSS3."
-                        },
-                        "fr": {
-                            "text": "Je peux créer des designs réactifs et visuellement attrayants en utilisant CSS3."
-                        },
-                        "ko": {
-                            "text": "CSS3를 사용하여 반응형이고 시각적으로 매력적인 디자인을 만들 수 있습니다."
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "img": "",
-                    "faIcon": "fa-brands fa-js",
-                    "faIconColors": {"bg": "", "fill": "#F7DF1E", "fillLight": "#a69617"},
-                    "date": {"year": 2020, "month": 3},
-                    "percentage": 90,
-                    "locales": {
-                        "en": {
-                            "title": "JavaScript ES6+",
-                            "text": "Mastered JavaScript ES6+ for dynamic and interactive web applications.",
-                            "level": ""
-                        },
-                        "es": {
-                            "text": "Dominio de JavaScript ES6+ para aplicaciones web dinámicas e interactivas."
-                        },
-                        "fr": {
-                            "text": "Maîtrisé JavaScript ES6+ pour des applications web dynamiques et interactives."
-                        },
-                        "ko": {
-                            "text": "동적이고 대화형 웹 애플리케이션을 위한 JavaScript ES6+를 마스터했습니다."
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "img": "",
-                    "faIcon": "fa-brands fa-react",
-                    "faIconColors": {"bg": "", "fill": "#61DAFB", "fillLight": "#317385"},
-                    "date": {"year": 2020, "month": 6},
-                    "percentage": 95,
-                    "locales": {
-                        "en": {
-                            "title": "React",
-                            "text": "Complete understanding of React for building modern web applications.",
-                            "level": ""
-                        },
-                        "es": {
-                            "text": "Comprensión completa de React para construir aplicaciones web modernas."
-                        },
-                        "fr": {
-                            "text": "Compréhension complète de React pour créer des applications web modernes."
-                        },
-                        "ko": {
-                            "text": "최신 웹 애플리케이션 구축을 위한 React에 대한 완전한 이해."
-                        }
-                    }
-                },
-                {
-                    "id": 5,
-                    "img": "",
-                    "faIcon": "fa-brands fa-vuejs",
-                    "faIconColors": {"bg": "", "fill": "#4FC08D", "fillLight": "#2b825b"},
-                    "date": {"year": 2023, "month": 8},
-                    "percentage": 40,
-                    "locales": {
-                        "en": {
-                            "title": "Vue.js",
-                            "text": "Good understanding of Vue.js for building interactive user interfaces.",
-                            "level": ""
-                        },
-                        "es": {
-                            "text": "Buena comprensión de Vue.js para construir interfaces de usuario interactivas."
-                        },
-                        "fr": {
-                            "text": "Bonne compréhension de Vue.js pour créer des interfaces utilisateur interactives."
-                        },
-                        "ko": {
-                            "text": "대화형 사용자 인터페이스 구축을 위한 Vue.js에 대한 좋은 이해."
-                        }
-                    }
-                },
-                {
-                    "id": 6,
-                    "img": "",
-                    "faIcon": "fa-brands fa-bootstrap",
-                    "faIconColors": {"bg": "", "fill": "#7952B3"},
-                    "date": {"year": 2021, "month": 2},
-                    "percentage": 90,
-                    "locales": {
-                        "en": {
-                            "title": "Bootstrap 5+",
-                            "text": "Good understanding of Bootstrap for responsive design.",
-                            "level": ""
-                        },
-                        "es": {
-                            "text": "Buena comprensión de Bootstrap para diseño receptivo."
-                        },
-                        "fr": {
-                            "text": "Bonne compréhension de Bootstrap pour le design réactif."
-                        },
-                        "ko": {
-                            "text": "반응형 디자인을 위한 Bootstrap에 대한 좋은 이해."
-                        }
-                    }
-                }
-            ]
+            "fr": {
+              "title": "Ingénierie {{Backend}}",
+              "text": "Développement de services backend avec Node.js et TypeScript, d'API REST, de systèmes d'authentification, de logique métier et d'intégrations de bases de données."
+            }
+          }
         },
 
-       {
-  "id": 4,
-  "component": "ArticleSkills",
-  "locales": {
-    "en": {
-      "title": "Languages"
-    },
-    "es": {
-      "title": "Idiomas"
-    },
-    "fr": {
-      "title": "Langues"
-    }
-  },
-  "settings": {
-    "max_items_per_row": 1,
-    "max_rows_collapse_threshold": 4,
-    "order_items_by": "id",
-    "order_items_sort": "asc",
-    "round_icons": true
-  },
-  "items": [
-    {
-      "id": 1,
-      "img": "images/flags/en-us.png",
-      "faIcon": "",
-      "faIconColors": {
-        "bg": "",
-        "fill": ""
-      },
-      "date": {
-        "year": null,
-        "month": null
-      },
-      "percentage": null,
-      "locales": {
-        "en": {
-          "title": "English",
-          "text": "Professional communication and strong written communication skills.",
-          "level": "Professional"
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-solid fa-layer-group",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2022,
+            "month": 1
+          },
+          "link": {
+            "href": "",
+            "tooltipString": ""
+          },
+          "locales": {
+            "en": {
+              "title": "{{SaaS}} & Business Systems",
+              "text": "Experience building practical business platforms including water management, POS and restaurant systems, welfare and SACCO management, billing, payments, memberships, claims, and operational dashboards."
+            },
+            "es": {
+              "title": "Sistemas {{SaaS}} y Empresariales",
+              "text": "Experiencia desarrollando plataformas empresariales para gestión de agua, POS, restaurantes, bienestar, SACCO, facturación, pagos, membresías y operaciones."
+            },
+            "fr": {
+              "title": "Systèmes {{SaaS}} et Métier",
+              "text": "Expérience dans le développement de plateformes métier pour la gestion de l'eau, POS, restaurants, coopératives SACCO, facturation, paiements, adhésions et opérations."
+            }
+          }
         },
-        "es": {
-          "title": "Inglés",
-          "text": "Comunicación profesional y sólidas habilidades de escritura.",
-          "level": "Profesional"
+
+        {
+          "id": 4,
+          "img": "",
+          "faIcon": "fa-solid fa-code",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2022,
+            "month": 1
+          },
+          "link": {
+            "href": "",
+            "tooltipString": ""
+          },
+          "locales": {
+            "en": {
+              "title": "{{Full-Stack}} Development",
+              "text": "Working across frontend, mobile, backend, databases, authentication, APIs, and deployment to deliver complete application systems rather than isolated interfaces."
+            },
+            "es": {
+              "title": "Desarrollo {{Full-Stack}}",
+              "text": "Trabajo en frontend, móvil, backend, bases de datos, autenticación, APIs y despliegue para desarrollar sistemas completos."
+            },
+            "fr": {
+              "title": "Développement {{Full-Stack}}",
+              "text": "Travail sur le frontend, le mobile, le backend, les bases de données, l'authentification, les API et le déploiement pour créer des systèmes complets."
+            }
+          }
         },
-        "fr": {
-          "title": "Anglais",
-          "text": "Communication professionnelle et solides compétences rédactionnelles.",
-          "level": "Professionnel"
+
+        {
+          "id": 5,
+          "img": "",
+          "faIcon": "fa-solid fa-shield-halved",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2025,
+            "month": 9
+          },
+          "link": {
+            "href": "",
+            "tooltipString": ""
+          },
+          "locales": {
+            "en": {
+              "title": "{{Cybersecurity}} & Secure Development",
+              "text": "Developing practical cybersecurity knowledge through Cisco cybersecurity training and ethical hacking studies, while applying secure authentication, API validation, session management, and application security principles in software projects."
+            },
+            "es": {
+              "title": "{{Ciberseguridad}} y Desarrollo Seguro",
+              "text": "Desarrollo de conocimientos prácticos de ciberseguridad mediante formación de Cisco y estudios de hacking ético, aplicando principios de autenticación segura, validación de APIs y protección de aplicaciones."
+            },
+            "fr": {
+              "title": "{{Cybersécurité}} et Développement Sécurisé",
+              "text": "Développement de compétences pratiques en cybersécurité à travers les formations Cisco et l'étude du hacking éthique, avec application de principes d'authentification et de sécurisation des applications."
+            }
+          }
         }
-      }
+      ]
     },
+
     {
       "id": 2,
-      "img": "images/flags/es.png",
-      "faIcon": "",
-      "faIconColors": {
-        "bg": "",
-        "fill": ""
-      },
-      "date": {
-        "year": null,
-        "month": null
-      },
-      "percentage": null,
+      "component": "ArticleSkills",
       "locales": {
         "en": {
-          "title": "Spanish",
-          "text": "Able to communicate in Spanish.",
-          "level": "Conversational"
+          "title": "Backend & {{Data}} Stack"
         },
         "es": {
-          "title": "Español",
-          "text": "Capacidad para comunicarse en español.",
-          "level": "Conversacional"
+          "title": "Stack de {{Backend y Datos}}"
         },
         "fr": {
-          "title": "Espagnol",
-          "text": "Capable de communiquer en espagnol.",
-          "level": "Conversationnel"
+          "title": "Stack {{Backend et Données}}"
         }
-      }
+      },
+      "settings": {
+        "max_items_per_row": 3,
+        "max_rows_collapse_threshold": 6,
+        "order_items_by": "percentage",
+        "order_items_sort": "desc",
+        "round_icons": false
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "",
+          "faIcon": "fa-brands fa-node-js",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2022,
+            "month": 1
+          },
+          "percentage": 90,
+          "locales": {
+            "en": {
+              "title": "Node.js",
+              "text": "Primary backend runtime used for APIs, business logic, authentication, integrations, and production application services.",
+              "level": "Advanced"
+            },
+            "es": {
+              "text": "Runtime backend principal utilizado para APIs, lógica empresarial, autenticación e integraciones.",
+              "level": "Avanzado"
+            },
+            "fr": {
+              "text": "Runtime backend principal utilisé pour les API, la logique métier, l'authentification et les intégrations.",
+              "level": "Avancé"
+            }
+          }
+        },
+
+        {
+          "id": 2,
+          "img": "",
+          "faIcon": "fa-solid fa-server",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2022,
+            "month": 1
+          },
+          "percentage": 88,
+          "locales": {
+            "en": {
+              "title": "Express.js & REST APIs",
+              "text": "Designing REST APIs, service layers, middleware, validation, authentication, and business workflows.",
+              "level": "Advanced"
+            },
+            "es": {
+              "text": "Diseño de APIs REST, capas de servicio, middleware, validación y autenticación.",
+              "level": "Avanzado"
+            },
+            "fr": {
+              "text": "Conception d'API REST, couches de services, middleware, validation et authentification.",
+              "level": "Avancé"
+            }
+          }
+        },
+
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-solid fa-code",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2023,
+            "month": 1
+          },
+          "percentage": 84,
+          "locales": {
+            "en": {
+              "title": "TypeScript",
+              "text": "Used across backend projects for typed services, API development, business logic, and maintainable application architecture.",
+              "level": "Proficient"
+            },
+            "es": {
+              "text": "Utilizado en proyectos backend para servicios tipados, APIs, lógica empresarial y arquitectura mantenible.",
+              "level": "Competente"
+            },
+            "fr": {
+              "text": "Utilisé dans les projets backend pour les services typés, les API, la logique métier et une architecture maintenable.",
+              "level": "Compétent"
+            }
+          }
+        },
+
+        {
+          "id": 4,
+          "img": "",
+          "faIcon": "fa-solid fa-database",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2022,
+            "month": 1
+          },
+          "percentage": 86,
+          "locales": {
+            "en": {
+              "title": "PostgreSQL",
+              "text": "Relational database design, queries, relationships, transactions, and integration with production backend systems.",
+              "level": "Advanced"
+            },
+            "es": {
+              "text": "Diseño de bases de datos relacionales, consultas, relaciones, transacciones e integración backend.",
+              "level": "Avanzado"
+            },
+            "fr": {
+              "text": "Conception de bases relationnelles, requêtes, relations, transactions et intégration backend.",
+              "level": "Avancé"
+            }
+          }
+        },
+
+        {
+          "id": 5,
+          "img": "",
+          "faIcon": "fa-solid fa-cubes",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2023,
+            "month": 1
+          },
+          "percentage": 82,
+          "locales": {
+            "en": {
+              "title": "Prisma ORM",
+              "text": "Schema design, relational modeling, queries, migrations, and database access for Node.js applications.",
+              "level": "Proficient"
+            },
+            "es": {
+              "text": "Diseño de esquemas, relaciones, consultas, migraciones y acceso a bases de datos.",
+              "level": "Competente"
+            },
+            "fr": {
+              "text": "Conception de schémas, relations, requêtes, migrations et accès aux bases de données.",
+              "level": "Compétent"
+            }
+          }
+        },
+
+        {
+          "id": 6,
+          "img": "",
+          "faIcon": "fa-solid fa-leaf",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2022,
+            "month": 1
+          },
+          "percentage": 72,
+          "locales": {
+            "en": {
+              "title": "MongoDB",
+              "text": "Experience working with document-based data models and integrating MongoDB into application backends.",
+              "level": "Working Proficiency"
+            },
+            "es": {
+              "text": "Experiencia trabajando con modelos de datos documentales e integración con backends.",
+              "level": "Competencia práctica"
+            },
+            "fr": {
+              "text": "Expérience avec les modèles documentaires et l'intégration de MongoDB dans les backends.",
+              "level": "Bonne pratique"
+            }
+          }
+        },
+
+        {
+          "id": 7,
+          "img": "",
+          "faIcon": "fa-solid fa-fire",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2023,
+            "month": 1
+          },
+          "percentage": 76,
+          "locales": {
+            "en": {
+              "title": "Firebase",
+              "text": "Used for application services and as the primary backend platform for the blood donation management application.",
+              "level": "Proficient"
+            },
+            "es": {
+              "text": "Utilizado para servicios de aplicaciones y como plataforma backend principal para la aplicación de donación de sangre.",
+              "level": "Competente"
+            },
+            "fr": {
+              "text": "Utilisé pour les services applicatifs et comme plateforme backend principale pour l'application de don de sang.",
+              "level": "Compétent"
+            }
+          }
+        },
+
+        {
+          "id": 8,
+          "img": "",
+          "faIcon": "fa-solid fa-bolt",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2023,
+            "month": 1
+          },
+          "percentage": 68,
+          "locales": {
+            "en": {
+              "title": "Redis",
+              "text": "Working knowledge of caching, temporary data storage, sessions, and performance-oriented backend patterns.",
+              "level": "Working Proficiency"
+            },
+            "es": {
+              "text": "Conocimientos prácticos de caché, almacenamiento temporal, sesiones y rendimiento backend.",
+              "level": "Competencia práctica"
+            },
+            "fr": {
+              "text": "Connaissances pratiques du cache, du stockage temporaire, des sessions et des performances backend.",
+              "level": "Bonne pratique"
+            }
+          }
+        }
+      ]
     },
+
     {
       "id": 3,
-      "img": "images/flags/ke.png",
-      "faIcon": "",
-      "faIconColors": {
-        "bg": "",
-        "fill": ""
-      },
-      "date": {
-        "year": null,
-        "month": null
-      },
-      "percentage": null,
+      "component": "ArticleSkills",
       "locales": {
         "en": {
-          "title": "Swahili",
-          "text": "Comfortable communicating in Swahili.",
-          "level": "Conversational"
+          "title": "Frontend & {{Mobile}} Stack"
         },
         "es": {
-          "title": "Suajili",
-          "text": "Cómodo comunicándome en suajili.",
-          "level": "Conversacional"
+          "title": "Stack {{Frontend y Móvil}}"
         },
         "fr": {
-          "title": "Swahili",
-          "text": "À l'aise pour communiquer en swahili.",
-          "level": "Conversationnel"
+          "title": "Stack {{Frontend et Mobile}}"
         }
-      }
+      },
+      "settings": {
+        "max_items_per_row": 3,
+        "max_rows_collapse_threshold": 8,
+        "order_items_by": "percentage",
+        "order_items_sort": "desc",
+        "round_icons": false
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "",
+          "faIcon": "fa-brands fa-react",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2022,
+            "month": 1
+          },
+          "percentage": 88,
+          "locales": {
+            "en": {
+              "title": "React",
+              "text": "Building responsive web applications, dashboards, reusable components, and API-driven interfaces.",
+              "level": "Advanced"
+            },
+            "es": {
+              "text": "Desarrollo de aplicaciones web, dashboards, componentes reutilizables e interfaces conectadas a APIs.",
+              "level": "Avanzado"
+            },
+            "fr": {
+              "text": "Développement d'applications web, dashboards, composants réutilisables et interfaces connectées aux API.",
+              "level": "Avancé"
+            }
+          }
+        },
+
+        {
+          "id": 2,
+          "img": "",
+          "faIcon": "fa-solid fa-mobile-screen-button",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2021,
+            "month": 1
+          },
+          "percentage": 90,
+          "locales": {
+            "en": {
+              "title": "Flutter",
+              "text": "Primary mobile framework used to build production Android and iOS applications across business, health, creator, streaming, POS, and field workflows.",
+              "level": "Advanced"
+            },
+            "es": {
+              "text": "Framework móvil principal utilizado para aplicaciones Android e iOS de producción en diferentes sectores.",
+              "level": "Avanzado"
+            },
+            "fr": {
+              "text": "Framework mobile principal utilisé pour des applications Android et iOS en production dans plusieurs domaines.",
+              "level": "Avancé"
+            }
+          }
+        },
+
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-solid fa-code",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2021,
+            "month": 1
+          },
+          "percentage": 88,
+          "locales": {
+            "en": {
+              "title": "Dart",
+              "text": "Primary programming language for Flutter applications, including state management, API integration, local storage, and application architecture.",
+              "level": "Advanced"
+            },
+            "es": {
+              "text": "Lenguaje principal utilizado para aplicaciones Flutter, gestión de estado, APIs, almacenamiento local y arquitectura.",
+              "level": "Avanzado"
+            },
+            "fr": {
+              "text": "Langage principal utilisé pour les applications Flutter, la gestion d'état, les API, le stockage local et l'architecture.",
+              "level": "Avancé"
+            }
+          }
+        },
+
+        {
+          "id": 4,
+          "img": "",
+          "faIcon": "fa-brands fa-js",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2020,
+            "month": 1
+          },
+          "percentage": 87,
+          "locales": {
+            "en": {
+              "title": "JavaScript",
+              "text": "Strong working knowledge of modern JavaScript for frontend applications, APIs, asynchronous programming, and application logic.",
+              "level": "Advanced"
+            },
+            "es": {
+              "text": "Sólidos conocimientos de JavaScript moderno para frontend, APIs, programación asíncrona y lógica.",
+              "level": "Avanzado"
+            },
+            "fr": {
+              "text": "Bonne maîtrise de JavaScript moderne pour le frontend, les API, l'asynchrone et la logique applicative.",
+              "level": "Avancé"
+            }
+          }
+        },
+
+        {
+          "id": 5,
+          "img": "",
+          "faIcon": "fa-brands fa-html5",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2019,
+            "month": 1
+          },
+          "percentage": 92,
+          "locales": {
+            "en": {
+              "title": "HTML5",
+              "text": "Semantic markup and structured interfaces for responsive web applications.",
+              "level": "Advanced"
+            },
+            "es": {
+              "text": "Marcado semántico y construcción de interfaces web estructuradas.",
+              "level": "Avanzado"
+            },
+            "fr": {
+              "text": "Balisage sémantique et création d'interfaces web structurées.",
+              "level": "Avancé"
+            }
+          }
+        },
+
+        {
+          "id": 6,
+          "img": "",
+          "faIcon": "fa-brands fa-css3-alt",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2019,
+            "month": 1
+          },
+          "percentage": 82,
+          "locales": {
+            "en": {
+              "title": "CSS",
+              "text": "Responsive layouts, component styling, visual hierarchy, and adaptive interfaces.",
+              "level": "Proficient"
+            },
+            "es": {
+              "text": "Diseños responsivos, estilos de componentes, jerarquía visual e interfaces adaptativas.",
+              "level": "Competente"
+            },
+            "fr": {
+              "text": "Layouts responsifs, styles de composants, hiérarchie visuelle et interfaces adaptatives.",
+              "level": "Compétent"
+            }
+          }
+        },
+
+        {
+          "id": 7,
+          "img": "",
+          "faIcon": "fa-brands fa-bootstrap",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2021,
+            "month": 1
+          },
+          "percentage": 80,
+          "locales": {
+            "en": {
+              "title": "Bootstrap",
+              "text": "Responsive UI development and rapid interface prototyping.",
+              "level": "Proficient"
+            },
+            "es": {
+              "text": "Desarrollo de interfaces responsivas y creación rápida de prototipos.",
+              "level": "Competente"
+            },
+            "fr": {
+              "text": "Développement d'interfaces responsives et prototypage rapide.",
+              "level": "Compétent"
+            }
+          }
+        },
+
+        {
+          "id": 8,
+          "img": "",
+          "faIcon": "fa-solid fa-wind",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2024,
+            "month": 1
+          },
+          "percentage": 76,
+          "locales": {
+            "en": {
+              "title": "Tailwind CSS",
+              "text": "Utility-first styling for modern React interfaces and responsive dashboards.",
+              "level": "Working Proficiency"
+            },
+            "es": {
+              "text": "Estilos utility-first para interfaces React modernas y dashboards responsivos.",
+              "level": "Competencia práctica"
+            },
+            "fr": {
+              "text": "Styling utility-first pour les interfaces React modernes et les dashboards responsifs.",
+              "level": "Bonne pratique"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "component": "ArticleSkills",
+      "locales": {
+        "en": {
+          "title": "Engineering & {{Security}}"
+        },
+        "es": {
+          "title": "Ingeniería y {{Seguridad}}"
+        },
+        "fr": {
+          "title": "Ingénierie et {{Sécurité}}"
+        }
+      },
+      "settings": {
+        "max_items_per_row": 3,
+        "max_rows_collapse_threshold": 6,
+        "order_items_by": "percentage",
+        "order_items_sort": "desc",
+        "round_icons": false
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "",
+          "faIcon": "fa-solid fa-key",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2022,
+            "month": 1
+          },
+          "percentage": 84,
+          "locales": {
+            "en": {
+              "title": "Authentication & Authorization",
+              "text": "JWT authentication, role-based access control, sessions, protected routes, OTP workflows, and secure API access.",
+              "level": "Proficient"
+            },
+            "es": {
+              "text": "Autenticación JWT, control de acceso basado en roles, sesiones, rutas protegidas y flujos OTP.",
+              "level": "Competente"
+            },
+            "fr": {
+              "text": "Authentification JWT, contrôle d'accès par rôles, sessions, routes protégées et workflows OTP.",
+              "level": "Compétent"
+            }
+          }
+        },
+
+        {
+          "id": 2,
+          "img": "",
+          "faIcon": "fa-solid fa-shield-halved",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2025,
+            "month": 9
+          },
+          "percentage": 62,
+          "locales": {
+            "en": {
+              "title": "Cybersecurity",
+              "text": "Developing practical cybersecurity knowledge through Cisco cybersecurity training and ongoing ethical hacking studies.",
+              "level": "Developing"
+            },
+            "es": {
+              "text": "Desarrollo de conocimientos prácticos de ciberseguridad mediante formación de Cisco y estudios continuos de hacking ético.",
+              "level": "En desarrollo"
+            },
+            "fr": {
+              "text": "Développement de compétences pratiques en cybersécurité grâce aux formations Cisco et à l'étude continue du hacking éthique.",
+              "level": "En développement"
+            }
+          }
+        },
+
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-solid fa-gauge-high",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2022,
+            "month": 1
+          },
+          "percentage": 78,
+          "locales": {
+            "en": {
+              "title": "Debugging & Performance",
+              "text": "Debugging application issues, profiling bottlenecks, refactoring code, and improving application reliability.",
+              "level": "Proficient"
+            },
+            "es": {
+              "text": "Depuración, identificación de cuellos de botella, refactorización y mejora de la fiabilidad.",
+              "level": "Competente"
+            },
+            "fr": {
+              "text": "Débogage, identification des goulots d'étranglement, refactorisation et amélioration de la fiabilité.",
+              "level": "Compétent"
+            }
+          }
+        },
+
+        {
+          "id": 4,
+          "img": "",
+          "faIcon": "fa-brands fa-git-alt",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": 2021,
+            "month": 1
+          },
+          "percentage": 82,
+          "locales": {
+            "en": {
+              "title": "Git & Version Control",
+              "text": "Branching, collaborative development, version management, debugging history, and maintaining application codebases.",
+              "level": "Proficient"
+            },
+            "es": {
+              "text": "Ramificación, desarrollo colaborativo, gestión de versiones y mantenimiento de código.",
+              "level": "Competente"
+            },
+            "fr": {
+              "text": "Branches, développement collaboratif, gestion des versions et maintenance des bases de code.",
+              "level": "Compétent"
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": 5,
+      "component": "ArticleSkills",
+      "locales": {
+        "en": {
+          "title": "Languages"
+        },
+        "es": {
+          "title": "Idiomas"
+        },
+        "fr": {
+          "title": "Langues"
+        }
+      },
+      "settings": {
+        "max_items_per_row": 1,
+        "max_rows_collapse_threshold": 4,
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "round_icons": true
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/flags/en-us.png",
+          "faIcon": "",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": null,
+            "month": null
+          },
+          "percentage": null,
+          "locales": {
+            "en": {
+              "title": "English",
+              "text": "Professional working proficiency with strong written and verbal communication.",
+              "level": "Professional"
+            },
+            "es": {
+              "title": "Inglés",
+              "text": "Competencia profesional con sólidas habilidades de comunicación escrita y verbal.",
+              "level": "Profesional"
+            },
+            "fr": {
+              "title": "Anglais",
+              "text": "Maîtrise professionnelle avec de solides compétences en communication écrite et orale.",
+              "level": "Professionnel"
+            }
+          }
+        },
+
+        {
+          "id": 2,
+          "img": "images/flags/es.png",
+          "faIcon": "",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": null,
+            "month": null
+          },
+          "percentage": null,
+          "locales": {
+            "en": {
+              "title": "Spanish",
+              "text": "Able to communicate in Spanish in everyday and conversational contexts.",
+              "level": "Conversational"
+            },
+            "es": {
+              "title": "Español",
+              "text": "Capacidad para comunicarse en español en contextos cotidianos y conversacionales.",
+              "level": "Conversacional"
+            },
+            "fr": {
+              "title": "Espagnol",
+              "text": "Capable de communiquer en espagnol dans des contextes quotidiens et conversationnels.",
+              "level": "Conversationnel"
+            }
+          }
+        },
+
+        {
+          "id": 3,
+          "img": "images/flags/ke.png",
+          "faIcon": "",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "date": {
+            "year": null,
+            "month": null
+          },
+          "percentage": null,
+          "locales": {
+            "en": {
+              "title": "Swahili",
+              "text": "Comfortable communicating in Swahili in everyday and professional contexts.",
+              "level": "Conversational"
+            },
+            "es": {
+              "title": "Suajili",
+              "text": "Cómodo comunicándome en suajili en contextos cotidianos y profesionales.",
+              "level": "Conversacional"
+            },
+            "fr": {
+              "title": "Swahili",
+              "text": "À l'aise pour communiquer en swahili dans des contextes quotidiens et professionnels.",
+              "level": "Conversationnel"
+            }
+          }
+        }
+      ]
     }
   ]
-}
-    ]
 }
